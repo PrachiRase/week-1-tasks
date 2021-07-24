@@ -1,0 +1,88 @@
+
+.video {
+    float: left;
+text-align: center;
+}
+
+.video iframe{
+    padding-left: 20px;
+    margin: 10px;
+}
+.video div{
+    margin: -10;
+}
+.cardb{
+    margin-left: 13%;
+    margin-top: 2%;
+}
+.bag{
+    background: url('../img/bag.jpg');
+    background-size: 0, 0, 0, 5;
+    background-repeat: no-repeat;
+    
+}
+
+.align{
+    text-align: center;
+}
+.gif img{
+    width: 300px;
+    height: 170px;
+    border: black solid;
+    border-width: 5px;
+    
+    margin-right: 15px;
+}
+.gif {
+    background: url(../gifs/gra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.box{
+      margin-top: 2%;
+      margin-bottom: 3%;
+      margin-left: 4%;
+      margin-right: 5%;
+      
+  }
+.customCard{
+      background: url('../gifs/gra1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+     font-family: 'Raleway', sans-serif;
+     height: auto;
+  }
+.card{
+      margin-left: 10%;
+      margin-top: 4%;
+  }
+.font{
+    font-family:  Garamond, serif;
+}
+.back{
+    background: url('../gifs/gra1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.customCard p, li{
+    color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-family:  Garamond, serif;
+  font-size: 18px;
+
+}
+.shrink img {
+    transition: 1s ease;
+    }
+    
+.shrink img:hover
+{
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+
+.text-light dd{
+    padding-left: 35px;
+}
