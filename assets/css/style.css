@@ -16,8 +16,8 @@ text-align: center;
     margin-top: 2%;
 }
 .bag{
-    background: url('../img/bag.jpg');
-    background-size: 0, 0, 0, 5;
+    background-image: url('../img/bag.jpeg');
+    background-size: cover;
     background-repeat: no-repeat;
     
 }
